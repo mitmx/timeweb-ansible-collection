@@ -1,0 +1,10 @@
+plugin: mitmx.timeweb.timeweb
+api_endpoint: "https://api.timeweb.cloud"
+validate_certs: true
+groups:
+  web: "'web' in tags"
+keyed_groups:
+  - key: region
+    prefix: region_
+compose:
+  ansible_host: public_ip

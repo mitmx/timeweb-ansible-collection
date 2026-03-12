@@ -1,0 +1,4 @@
+collections:
+  - name: https://github.com/mitmx/timeweb-ansible-collection
+    type: git
+    version: main
