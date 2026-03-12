@@ -1,0 +1,10 @@
+namespace: mitmx
+name: timeweb
+version: 1.0.0
+readme: README.md
+authors:
+  - mitm
+description: Dynamic inventory plugin for Timeweb Cloud
+license: MIT
+tags: [timeweb, inventory, cloud]
+repository: "https://gitlab.axarea.ru/devops/ansible/collections/timeweb.git"
